@@ -8,8 +8,8 @@ import Nav from './components/Nav/Nav';
 // styles
 import { Container } from './appStyles.js';
 // Personal Key, it would be hidden for you. Get One!
-import API_KEY from './key';
-
+// import API_KEY from './key';
+const API_KEY = 'AIzaSyAGIlTN7xSPTE8332rjMgSZoaP1oYhE2Vo';
 function App() {
   const [videos, setVideos] = useState(null),
     [selectedVideo, setSelectVideo] = useState();
