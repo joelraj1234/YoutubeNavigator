@@ -8,6 +8,7 @@ function Nav({ children }) {
     <NavContainer>
       <Logo src={YoutubeLogo} alt='' />
       {children}
+      <a style={{textAlign:"right"}} href="https://github.com/joelraj1234/YoutubeNavigator">Source Code</a>
     </NavContainer>
   );
 }
